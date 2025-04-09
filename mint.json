@@ -29,13 +29,17 @@
     {
       "name": "Clatter",
       "url": "clatter"
+    },
+    {
+      "name": "Studios",
+      "url": "studios"
     }
   ],
   "anchors": [
     {
-      "name": "Cloud+",
-      "icon": "cloud",
-      "url": "https://mintlify.com/docs"
+      "name": "Creator",
+      "icon": "paintbrush-pencil",
+      "url": "https://creator.quntem.co.uk/"
     },
     {
       "name": "Clatter",
@@ -53,25 +57,32 @@
       "group": "Introduction",
       "pages": [
         "introduction",
-        "quickstart",
-        "development"
+        "what-we-use"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Overview",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "overview/cloud+",
+        "overview/voxa"
+      ]
+    },
+    {
+      "group": "Policies",
+      "pages": [
+        "policies/branding"
       ]
     },
     {
       "group": "Clatter",
       "pages": [
         "clatter/code"
+      ]
+    },
+    {
+      "group": "Quntem Studios",
+      "pages": [
+        "studios/introduction"
       ]
     },
     {
