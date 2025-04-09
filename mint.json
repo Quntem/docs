@@ -61,6 +61,13 @@
       ]
     },
     {
+      "group": "Editing",
+      "pages": [
+        "editing/clatter",
+        "editing/docs"
+      ]
+    },
+    {
       "group": "Overview",
       "pages": [
         "overview/cloud+",

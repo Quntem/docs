@@ -1,0 +1,70 @@
+---
+title: 'Editing The Documentation'
+sidebarTitle: 'Quntem Docs'
+description: 'A guide on how to edit the documentation.'
+icon: 'book-open'
+---
+
+You will likely find multiple errors here and there among the documentation. You can contribute to the documentation by editing it. This is a guide on how to edit the documentation.
+
+<Note>This guide is written for Windows users. If you are on other OSes, you can visit the [Mintlify documentation](https://mintlify.com/docs/development) for more information.</Note>
+
+<Steps>
+    <Step title="Fork the repository" icon="code-fork">
+        Fork [this repository](https://github.com/Quntem/docs) to your own GitHub account. Click on the "Fork" button on the top right corner of the page.
+    </Step>
+    <Step title="Install Mintlify CLI" icon="terminal">
+        Install the Mintlify CLI by running the following command in your terminal:
+        <CodeGroup>
+            ```bash npm
+            npm install -g Mintlify
+            ```
+
+            ```bash yarn
+            yarn global add mintlify
+            ```
+
+            ```bash pnpm
+            pnpm add -g mintlify
+            ```
+        </CodeGroup>
+    </Step>
+    <Step title="Download the repository" icon="download">
+        Download your fork of the repository. It should be located in the blue "Code" button on the top right corner of the page. Click on it and download the ZIP file.
+        Extract the ZIP file to a folder of your choice. In this guide, we will be exporting to the "Documents" folder. 
+        After extracting, go back to your terminal and run these following commands:
+        <CodeGroup>
+            ```bash Documents
+            cd ~/Documents/docs
+            ```
+
+            ```bash Some other folder
+            cd (Path)
+            ```
+        </CodeGroup>
+
+        <Warning>Only extract to other folders if you know what you're doing.</Warning>
+    </Step>
+    <Step title="Previewing Locally" icon="eye">
+        After navigating to the "docs" folder, You can finally preview the documentation locally. Run the following command in your terminal:
+        ```bash all
+        mintlify dev
+        ```
+        This will start a local server and open the documentation in your default web browser. If it doesn't open automatically, you can visit [http://localhost:3000](http://localhost:3000) in your web browser.
+    </Step>
+    <Step title="Edit" icon="pen">
+        After previewing locally, you can now edit the documentation. You can use any text editor of your choice. We recommend using Visual Studio Code (recommended) or Notepad++.
+        You can find the files in the "docs" folder. The files are in Markdown format, so you can edit them like any other text file. You can follow the [Mintlify documentation](https://mintlify.com/docs/development) for more information on how to edit the documentation.
+        <Warning>Do not edit the "mint.json" file. This file is used for important styling and navigating. It should not be edited unless you know what you're doing.</Warning>
+    </Step>
+    <Step title="Commit" icon="code-commit">
+        After editing the documentation, you can commit your changes. If you are using Visual Studio Code, you should see a "Source Control" tab on the left side of the window. It is the third icon from the top.
+        Click on it and you should see a list of files that have been changed. You can select the files you want to commit and enter a commit message. After that, click on the "Commit" button.
+        <Info>Committing means saving your changes to the local repository. This is important because it allows you to keep track of your changes and revert back to previous versions if needed.</Info>
+        You should see two popups appear one after the other. Press "yes" to both of them and they will be updated on your forked GitHub repository.
+    </Step>
+    <Step title="Pushing your changes for review" icon="code-pull-request">
+        On your forked repository, there should be a "Contribute" button above your code. Click on it and select "Open a pull request". Then click "Create pull request".
+        This will create a pull request to the original repository. The developers will review your changes and merge them if they seem good to the assigned developer.
+    </Step>
+</Steps>
