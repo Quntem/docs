@@ -18,7 +18,7 @@ mintlify dev
 
 ### Contributing
 
-Make a 
+Make a fork of the original Quntem Docs repo, then commit your changes to it. Press the "contribute" button on the GitHub page of your fork to create a new pull request. This is the standard to most GitHub pull requests as well.
 
 #### Troubleshooting
 
