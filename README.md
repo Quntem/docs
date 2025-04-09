@@ -1,14 +1,8 @@
-# Mintlify Starter Kit
+# Quntem Docs
 
-Click on `Use this template` to copy the Mintlify starter kit. The starter kit contains examples including
+This is the official GitHub page for the Quntem Documentation.
 
-- Guide pages
-- Navigation
-- Customizations
-- API Reference pages
-- Use of popular components
-
-### Development
+### Running Locally
 
 Install the [Mintlify CLI](https://www.npmjs.com/package/mintlify) to preview the documentation changes locally. To install, use the following command
 
@@ -16,15 +10,15 @@ Install the [Mintlify CLI](https://www.npmjs.com/package/mintlify) to preview th
 npm i -g mintlify
 ```
 
-Run the following command at the root of your documentation (where mint.json is)
+Run the following command at the root of the repository (the "docs" folder)
 
 ```
 mintlify dev
 ```
 
-### Publishing Changes
+### Contributing
 
-Install our Github App to auto propagate changes from your repo to your deployment. Changes will be deployed to production automatically after pushing to the default branch. Find the link to install on your dashboard. 
+Make a fork of the original Quntem Docs repo, then commit your changes to it. Press the "contribute" button on the GitHub page of your fork to create a new pull request. This is the standard to most GitHub pull requests as well.
 
 #### Troubleshooting
 
