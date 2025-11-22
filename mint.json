@@ -33,6 +33,10 @@
     {
       "name": "Studios",
       "url": "studios"
+    },
+    {
+      "name": "Admin",
+      "url": "admin"
     }
   ],
   "anchors": [
@@ -84,6 +88,20 @@
       "group": "Clatter",
       "pages": [
         "clatter/code"
+      ]
+    },
+    {
+      "group": "Admin",
+      "pages": [
+        "admin/introduction"
+      ]
+    },
+    {
+      "group": "KeyStone",
+      "pages": [
+        "admin/keystone/introduction",
+        "admin/keystone/setup",
+        "admin/keystone/users"
       ]
     },
     {
